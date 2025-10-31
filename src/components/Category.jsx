@@ -1,6 +1,6 @@
 // Link
 import { Link } from "react-router-dom";
-// icons
+// icon
 import { HiOutlineArrowUturnLeft } from "react-icons/hi2";
 
 const categories = [
