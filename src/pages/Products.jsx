@@ -1,4 +1,4 @@
-// components
+
 import Category from "../components/Category";
 import FilteredProducts from "../components/FilteredProducts";
 
