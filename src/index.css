@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 768px) {
+  .unset {
+    all: unset;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-settings {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .span-row-col {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .span-row {
+    grid-row: span 2;
+  }
+}
+
+.toast {
+  animation: slide 1.2s linear forwards;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 40px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.custom-overflow-scroll {
+  overflow-x: scroll;
+}
+
+.custom-overflow-scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+}
+
+.custom-overflow-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.custom-overflow-scroll:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
