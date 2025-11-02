@@ -7,6 +7,12 @@ It provides smooth navigation, cart functionality, and dynamic product data usin
 
 ---
 
+
+## 🖼️ Preview
+Here’s a quick look at the project 👇 
+ ![preview](./src//assets//screenShots/Rouf.png)
+
+
 ## 🚀 Features
 
 - 🖥️ **Modern UI/UX:** Built with Tailwind CSS for a clean, responsive design  
